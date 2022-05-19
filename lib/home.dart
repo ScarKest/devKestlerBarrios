@@ -19,6 +19,7 @@ class HomePage extends StatelessWidget {
                 width: size.width * 0.3,
                 fit: BoxFit.cover,
               ),
+              const SizedBox(width: 50),
               name(context)
             ],
           )
